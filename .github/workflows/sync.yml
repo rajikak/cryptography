@@ -24,7 +24,7 @@ jobs:
             README.md
             .gitignore
             src/
-            Cargo.yml
+            Cargo.toml 
           GITHUB_TOKEN: '${{ secrets.BARANASOFTWARE_TOKEN }}'
           TARGET_REPOS: |
             baranasoftware/cryptography:main
